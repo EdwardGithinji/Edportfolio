@@ -25,41 +25,39 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="home.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="home.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="home.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="home.html#work" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
-
-        <!-- Introduction -->
-
-        <section class="intro">
+        <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                The title<strong>of my project</strong>
+                <strong>Baraza</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">A short subtitle</p>
-            <img src="img/portfolio-01.jpg" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">Meetings and Video Conferencing</p>
+
         </section>
 
         <div class="portfolio-item-individual">
-            <p>The third thing of note is that it might suffer some feature-lag. This is because Docker,
-            Inc. are taking a stability first, features second approach with the product.
-            All three points add up to a quick and easy installation, but one that is not intended
-            for production</p>
-            <img src="img/services-bg.jpg" alt="">
-            <p>The following will assume that hardware virtualization support is already enabled
-            in your system’s BIOS. If it is not, you should carefully follow the procedure for your
-            particular machine</p>
-            <p>Each of the nodes needs Docker installed and needs to be able to communicate with
-            the rest of the swarm. It’ also beneficial if name resolution is configured — it makes
-            it easier to identify nodes in command outputs and helps when troubleshooting.</p>
+            <img src="img/baraza-meeting.png" alt="Baraza Home Page" class="portfolio__item">
+            <p>A video conferencing and collaboration software that enables users to host audio and video meetings,
+                share files, direct message each other, and participate in group chats.
+                It also had a polling feature where users could vote on polls within a specified group.
+            </p>
+            <p>
+                I worked on the REST API endpoints with Python and Django for meetings, teams, user polling,
+                and the back-end integration with OpenVidu. Additionally, I implemented automated, asynchronous,
+                and periodic tasks using celery for recurring meetings scheduling and email and mobile notifications.
+
+            </p>
+
         </div>
 
         <!--Footer-->
         <footer class="footer">
-            <a href="mailto:hello@edward.dev" class="footer__link">hello@edward.dev</a>
+            <a href="mailto:eduggithinji@gmail.com" class="footer__link">eduggithinji@gmail.com</a>
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://www.linkedin.com">
